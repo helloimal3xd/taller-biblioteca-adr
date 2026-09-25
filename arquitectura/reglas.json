@@ -1,0 +1,9 @@
+[
+  {
+    "id": "R1",
+    "adr": "ADR-001",
+    "modulo": "prestamos",
+    "no_puede_importar": ["avisos"],
+    "porque": "Si el envío del aviso falla, el préstamo de un libro no se puede caer con él. El socio debe poder llevarse el libro aunque la notificación no se pueda enviar."
+  }
+]
