@@ -2,7 +2,6 @@
 // IMPORTANTE: este módulo NO importa avisos.js a propósito (ver ADR-001 del taller).
 
 import { hayDisponible, reservarCopia, liberarCopia, buscarLibro } from './catalogo.js';
-import { avisarPrestamo } from './avisos.js';
 
 const prestamos = [];
 let siguienteId = 1;
